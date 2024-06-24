@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/letter-p.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+
+<body class="text-white">
+    <!-- ------ Header ------ -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="logo"><a href="#"><img class="w-50 " src="./assets/letter-p.png" alt=""></a></div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white text-uppercase" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-uppercase" href="#about">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-uppercase" href="#portfolio">Projects</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="hire-me position-relative">
+                    <span class="btn-txt bg-white position-absolute text-dark"><a href="#"
+                            class="text-dark text-decoration-none">Hire
+                            Me!</a></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ------ Main ------ -->
+    <main class="position-relative mx-auto ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 position-relative">
+                    <div class="profile sticky-top" id="sticky_item">
+                        <div class="img-wrapper">
+                            <div class="img">
+                                <img class="w-100" src="./assets/profile.png" alt="">
+                            </div>
+                            <div class="info text-center mt-4">
+                                <h5>Payal Devgharkar</h5>
+                                <p><a class="text-decoration-none text-light"
+                                        href="#0">@payaldevgharkar1011@gmail.com</a></p>
+                            </div>
+                            <div class="social text-center mt-20">
+                                <a href="mailto:payaldevgharkar1011@gmail.com"><i
+                                        class="fa-regular fa-envelope"></i></a>
+
+                                <a
+                                    href="https://www.linkedin.com/in/payal-devgharkar-78a673212?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                        class="text-center text-white fab fa-linkedin-in"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 offset-lg-1">
+
+                    <div class="py-120">
+                        <!-- ------ Main heading ------ -->
+                        <div class="main-head">
+                            <h1>Hello, I’m <span class="ethan-hawke">Payal Devgharkar,</span><br>Working as a Web
+                                Developer.
+                            </h1>
+                        </div>
+
+                        <!-- ------ Counts ------ -->
+                        <div class="counts d-flex flex-wrap align-items-center py-40">
+                            <div class="count-wrapper d-flex align-items-center gap-4 mr-40">
+                                <h2>2.2</h2>
+                                <span class="m-0">Years <br>of Experance</span>
+                            </div>
+
+                            <div class="download-btn position-relative">
+                                <a class="text-white text-decoration-none position-absolute" href="#">Download C.V</a>
+                            </div>
+                        </div>
+
+                        <!-- ------ About us ------ -->
+                        <div class="about py-40" id="about">
+                            <h4 class="sub-title text-uppercase mb-15">About Us.</h4>
+                            <p class="m-0">
+                                Experienced Web Developer proficient in HTML, CSS, Bootstrap, JavaScript, and Shopify.
+                                Currently at Walstar Technologies, I excel in end-to-end project management and
+                                delivering engaging web designs. I aim to create visually stunning and intuitive
+                                experiences. Eager to further enhance skills and contribute to innovative projects in a
+                                collaborative environment.
+                            </p>
+                        </div>
+
+                        <!-- ------ Resume ------ -->
+                        <div class="resume py-40">
+                            <h4 class="title text-uppercase mb-15 mb-80">Resume</h4>
+                            <div>
+                                <div class="items d-flex align-items-center">
+                                    <div class="duration mr-60">
+                                        <p>2018 - 2018</p>
+                                    </div>
+                                    <div class="education"><a class="text-decoration-none text-white" href="#">BCA from
+                                            Haribhai. V. Desai College Pune
+                                        </a></div>
+                                    <div class="icon d-flex justify-content-between ml-auto">
+
+                                        <div class="arrow">
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" version="1.2"
+                                                    viewBox="0 0 30 30" width="30" height="30">
+                                                    <title>icons8-arrow-30 (1)</title>
+                                                    <defs>
+                                                        <image width="26" height="19" id="img1"
+                                                            href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAATCAMAAAC5m+00AAAAAXNSR0IB2cksfwAAAEhQTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////////53h4sAAAABh0Uk5TABPJYc8SEMvvV0RDDf9jAZg2Ap/uLYtJ8YsHBQAAAGhJREFUeJx1z70KgDAMBOA7WgW7CH3/FxQHV0FK7e9QuGTJ8BFyR4whmbAM53bgJ2lnShmKlHSS0khLJUMKWQJu2ZMKSBfURbOT7/Fog2nljWU1gWEtnLaeW9qopGy2jaXirQnR81rpB+AsJS449hWWAAAAAElFTkSuQmCC">
+                                                        </image>
+                                                    </defs>
+                                                    <style>
+                                                    </style>
+                                                    <use id="Background" href="#img1" x="2" y="5"></use>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="items d-flex align-items-center">
+                                    <div class="duration mr-60">
+                                        <p>2015-2017</p>
+                                    </div>
+                                    <div class="education"><a class="text-decoration-none text-white" href="#">H.S.C
+                                            from S.P. College</a>
+                                    </div>
+                                    <div class="icon d-flex justify-content-between ml-auto">
+
+                                        <div class="arrow">
+                                            <a href="#">
+
+                                                <svg xmlns="http://www.w3.org/2000/svg" version="1.2"
+                                                    viewBox="0 0 30 30" width="30" height="30">
+                                                    <title>icons8-arrow-30 (1)</title>
+                                                    <defs>
+                                                        <image width="26" height="19" id="img1"
+                                                            href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAATCAMAAAC5m+00AAAAAXNSR0IB2cksfwAAAEhQTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////////53h4sAAAABh0Uk5TABPJYc8SEMvvV0RDDf9jAZg2Ap/uLYtJ8YsHBQAAAGhJREFUeJx1z70KgDAMBOA7WgW7CH3/FxQHV0FK7e9QuGTJ8BFyR4whmbAM53bgJ2lnShmKlHSS0khLJUMKWQJu2ZMKSBfURbOT7/Fog2nljWU1gWEtnLaeW9qopGy2jaXirQnR81rpB+AsJS449hWWAAAAAElFTkSuQmCC">
+                                                        </image>
+                                                    </defs>
+                                                    <style>
+                                                    </style>
+                                                    <use id="Background" href="#img1" x="2" y="5"></use>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- ------ Skills ------ -->
+                        <div class="skills py-40">
+                            <h4 class="title text-uppercase mb-80">Skills</h4>
+                            <div class="row">
+                                <div class="col-lg-4 mb-30">
+                                    <div class="box-item position-relative">
+                                        <div class="d-flex align-items-center mb-30">
+                                            <div class="mr-30"><img class="w-40" src="./assets/icons8-html-40.png"
+                                                    alt="img"></div>
+                                            <h5>HTML</h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mb-30">
+                                    <div class="box-item position-relative">
+                                        <div class="d-flex align-items-center mb-30">
+                                            <div class="mr-30"><img class="w-40" src="./assets/icons8-css-40.png"
+                                                    alt="img"></div>
+                                            <h5>CSS</h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mb-30">
+                                    <div class="box-item position-relative">
+                                        <div class="d-flex align-items-center mb-30">
+                                            <div class="mr-30"><img class="w-40" src="./assets/icons8-bootstrap-40.png"
+                                                    alt="img"></div>
+                                            <h5>Bootstrap</h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="box-item position-relative">
+                                        <div class="d-flex align-items-center mb-30">
+                                            <div class="mr-30"><img class="w-40" src="./assets/icons8-javascript-40.png"
+                                                    alt="img"></div>
+                                            <h5>Javascript</h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="box-item position-relative">
+                                        <div class="d-flex align-items-center mb-30">
+                                            <div class="mr-30"><img class="w-40" src="./assets/icons8-wordpress-40.png"
+                                                    alt="img"></div>
+                                            <h5>WordPress</h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="box-item position-relative">
+                                        <div class="d-flex align-items-center mb-30">
+                                            <div class="mr-30"><img class="w-40"
+                                                    src="./assets/icons8-shopify-an-e-commerce-platform-that-helps-to-sell-online-40.png"
+                                                    alt="img"></div>
+                                            <h5>Shopify</h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- ------ Portfolio ------ -->
+        <section class="portfolio py-40" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <h4 class="title text-uppercase">Projects</h4>
+                    </div>
+
+                    <div class="col-lg-6 mt-50">
+                        <div class="item">
+                            <div class="img position-relative">
+                                <a href="#"><img class="w-100" src="./assets/twisted-ginger.png" alt=""></a>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center px-3 mt-20">
+                                <div>
+                                    <div class="tags pt-20 mb-20">
+                                        <a class="brand text-decoration-none text-white" href="#">Jewelry</a>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <h5>Twisted Ginger Jewelry</h5>
+                                    </div>
+                                </div>
+                                <a target="_blank" href="https://www.twistedginger.me/">
+                                    <svg class="arrow-right" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 34.2 32.3" xml:space="preserve" style="stroke-width: 2;">
+                                        <line x1="0" y1="16" x2="33" y2="16"></line>
+                                        <line x1="17.3" y1="0.7" x2="33.2" y2="16.5"></line>
+                                        <line x1="17.3" y1="31.6" x2="33.5" y2="15.4"></line>
+                                    </svg>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-50">
+                        <div class="item">
+                            <div class="img position-relative">
+                                <a href="#"><img class="w-100" src="./assets/luxury.png" alt=""></a>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center px-3 mt-20">
+                                <div>
+                                    <div class="tags pt-20 mb-20">
+                                        <a class="brand text-decoration-none text-white" href="#">Accessories</a>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <h5>Luxury GoRound</h5>
+                                    </div>
+                                </div>
+                                <a target="_blank" href="https://luxurygoround.com/">
+                                    <svg class="arrow-right" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 34.2 32.3" xml:space="preserve" style="stroke-width: 2;">
+                                        <line x1="0" y1="16" x2="33" y2="16"></line>
+                                        <line x1="17.3" y1="0.7" x2="33.2" y2="16.5"></line>
+                                        <line x1="17.3" y1="31.6" x2="33.5" y2="15.4"></line>
+                                    </svg>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 mt-50">
+                        <div class="item">
+                            <div class="img position-relative">
+                                <a href="#"><img class="w-100" src="./assets/adorn.png" alt=""></a>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center px-3 mt-20">
+                                <div>
+                                    <div class="tags pt-20 mb-20">
+                                        <a class="brand text-decoration-none text-white" href="#">Jewelry</a>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <h5>Adorn To Rise</h5>
+                                    </div>
+                                </div>
+                                <a target="_blank" href="https://www.adorntorise.com/">
+                                    <svg class="arrow-right" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 34.2 32.3" xml:space="preserve" style="stroke-width: 2;">
+                                        <line x1="0" y1="16" x2="33" y2="16"></line>
+                                        <line x1="17.3" y1="0.7" x2="33.2" y2="16.5"></line>
+                                        <line x1="17.3" y1="31.6" x2="33.5" y2="15.4"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div class="copyright text-center py-30">
+            <p class="m-0">All rights reserved by Payal © 2024</p>
+        </div>
+    </footer>
+
+    <!-- <div class="js-cursor">
+        <div class="c-cursor__inner c-cursor__inner--circle js-cursor-inner">
+            <div class="c-cursor__side c-cursor__side--left js-cursor-right"></div>
+            <div class="c-cursor__side c-cursor__side--right js-cursor-left"></div>
+        </div>
+    </div> -->
+
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+    <script>
+
+
+        //Scroll back to top
+
+        (function ($) {
+            "use strict";
+
+            $(document).ready(function () {
+                "use strict";
+
+                var progressPath = document.querySelector('.progress-wrap path');
+                var pathLength = progressPath.getTotalLength();
+                progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
+                progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
+                progressPath.style.strokeDashoffset = pathLength;
+                progressPath.getBoundingClientRect();
+                progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';
+                var updateProgress = function () {
+                    var scroll = $(window).scrollTop();
+                    var height = $(document).height() - $(window).height();
+                    var progress = pathLength - (scroll * pathLength / height);
+                    progressPath.style.strokeDashoffset = progress;
+                }
+                updateProgress();
+                $(window).scroll(updateProgress);
+                var offset = 50;
+                var duration = 550;
+                jQuery(window).on('scroll', function () {
+                    if (jQuery(this).scrollTop() > offset) {
+                        jQuery('.progress-wrap').addClass('active-progress');
+                    } else {
+                        jQuery('.progress-wrap').removeClass('active-progress');
+                    }
+                });
+                jQuery('.progress-wrap').on('click', function (event) {
+                    event.preventDefault();
+                    jQuery('html, body').animate({ scrollTop: 0 }, duration);
+                    return false;
+                })
+
+
+            });
+
+        })(jQuery);
+
+        const swiperTestmonials = new Swiper('.swiper-testmonials', {
+            loop: false,
+            slidesPerView: 1,
+            grabCursor: true,
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-testmonials-next',
+                prevEl: '.swiper-button-testmonials-prev',
+            },
+            breakpoints: {
+                // when window width is >= 640px
+                500: {
+                    slidesPerView: 1,
+                },
+                780: {
+                    slidesPerView: 1,
+                },
+                1300: {
+                    slidesPerView: 2,
+                },
+                1630: {
+                    slidesPerView: 2,
+                }
+            },
+            on: {
+                slideChange: function () {
+                    // Get the Swiper instance
+                    var swiper = this;
+                    // Check if it's the last slide
+                    if (swiper.isEnd) {
+                        // Disable the next button
+                        $('.swiper-button-testmonials-next').addClass('swiper-button-disabled').prop('disabled', true);
+                    } else {
+                        // Enable the next button
+                        $('.swiper-button-testmonials-next').removeClass('swiper-button-disabled').prop('disabled', false);
+                    }
+                },
+            },
+        });
+
+
+        // clients logo
+        $(document).ready(function () {
+            $('.customer-logos').slick({
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                autoplay: false,
+                autoplaySpeed: 1500,
+                arrows: false,
+                dots: false,
+                pauseOnHover: false,
+                responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 4
+                    }
+                }, {
+                    breakpoint: 520,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                }]
+            });
+        });
+
+        // sticky header
+        var header = document.getElementById("header");
+        var sticky = header.offsetTop;
+        var delay = 5000; // Delay in milliseconds
+        var timeoutId;
+
+        function stickyHeader() {
+            if (window.pageYOffset > sticky) {
+                clearTimeout(timeoutId);
+                header.classList.remove("sticky");
+            } else {
+                clearTimeout(timeoutId);
+                timeoutId = setTimeout(function () {
+                    header.classList.add("sticky");
+                }, delay);
+            }
+        }
+
+        window.onscroll = function () { stickyHeader() };
+
+        const body = document.body;
+
+        const MathUtils = {
+            lineEq: (y2, y1, x2, x1, currentVal) => {
+                // y = mx + b
+                var m = (y2 - y1) / (x2 - x1),
+                    b = y1 - m * x1;
+                return m * currentVal + b;
+            },
+            lerp: (a, b, n) => (1 - n) * a + n * b,
+            getRandomFloat: (min, max) => (Math.random() * (max - min) + min).toFixed(2)
+        };
+
+        const getMousePos = e => {
+            let posx = 0;
+            let posy = 0;
+            if (!e) e = window.event;
+            if (e.pageX || e.pageY) {
+                posx = e.pageX;
+                posy = e.pageY;
+            } else if (e.clientX || e.clientY) {
+                posx = e.clientX + body.scrollLeft + document.documentElement.scrollLeft;
+                posy = e.clientY + body.scrollTop + document.documentElement.scrollTop;
+            }
+            return { x: posx, y: posy };
+        };
+
+        let winsize;
+        const calcWinsize = () =>
+            (winsize = { width: window.innerWidth, height: window.innerHeight });
+        calcWinsize();
+        window.addEventListener("resize", calcWinsize);
+
+        let mousepos = { x: winsize.width / 2, y: winsize.height / 2 };
+        window.addEventListener("mousemove", ev => (mousepos = getMousePos(ev)));
+
+        // Custom cursor
+        class Cursor {
+            constructor(el) {
+                this.DOM = { el: el };
+                this.DOM.circle = this.DOM.el.querySelector(".js-cursor-inner");
+                this.DOM.arrows = {
+                    right: this.DOM.el.querySelector(".js-cursor-right"),
+                    left: this.DOM.el.querySelector(".js-cursor-left")
+                };
+                this.bounds = this.DOM.circle.getBoundingClientRect();
+                this.lastMousePos = { x: 0, y: 0 };
+                this.scale = 1;
+                this.lastScale = 1;
+                requestAnimationFrame(() => this.render());
+            }
+            render() {
+                this.lastMousePos.x = MathUtils.lerp(
+                    this.lastMousePos.x,
+                    mousepos.x - this.bounds.width / 2,
+                    0.2
+                );
+                this.lastMousePos.y = MathUtils.lerp(
+                    this.lastMousePos.y,
+                    mousepos.y - this.bounds.height / 2,
+                    0.2
+                );
+                this.lastScale = MathUtils.lerp(this.lastScale, this.scale, 0.15);
+                this.DOM.circle.style.transform = `translateX(${this.lastMousePos.x
+                    }px) translateY(${this.lastMousePos.y}px) scale(${this.lastScale})`;
+                requestAnimationFrame(() => this.render());
+            }
+            enter() {
+                this.scale = 1.9;
+            }
+            leave() {
+                this.scale = 1;
+            }
+            click() {
+                this.lastScale = 0.4;
+            }
+            showArrows() {
+                TweenMax.to(Object.values(this.DOM.arrows), 1, {
+                    ease: Expo.easeOut,
+                    startAt: { x: i => (i ? 10 : -10) },
+                    opacity: 1,
+                    x: 0
+                });
+            }
+            hideArrows() {
+                TweenMax.to(Object.values(this.DOM.arrows), 1, {
+                    ease: Expo.easeOut,
+                    x: i => (i ? 10 : -10),
+                    opacity: 0
+                });
+            }
+        }
+
+        // Custom mouse cursor
+        const cursor = new Cursor(document.querySelector(".js-cursor"));
+
+        // Activate the enter/leave/click methods of the custom cursor when hovering in/out on every <a> (and the close content ctrl)
+        const links = document.querySelectorAll(".js-link");
+
+        [...links].forEach(link => {
+            link.addEventListener("mouseenter", () => cursor.enter());
+            link.addEventListener("mouseleave", () => cursor.leave());
+        });
+
+    </script>
+
+    <!-- Include Bootstrap if needed -->
+
+    </script>
+</body>
+
+</html>
