@@ -108,10 +108,10 @@ main {
     font-weight: 200;
 }
 
-span.ethan-hawke {
+/* span.name {
     color: #2784e1 !important;
-}
-span.ethan-hawke {
+} */
+span.name {
     color: #2784e1 !important;
 }
 .main-head h1 {
