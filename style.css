@@ -467,7 +467,7 @@ svg.arrow-right {
 
 .item:hover .brand {
     background: #2784e1;
-    color: #1d1d1d !important;
+    color: #fff !important;
 }
 
 .portfolio img {
