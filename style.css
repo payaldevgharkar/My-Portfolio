@@ -39,7 +39,7 @@ nav.navbar.navbar-expand-lg.navbar-light {
 }
 
 li.nav-item:hover .nav-link {
-    color: #55e6a5 !important;
+    color: #2784e1 !important;
 }
 
 main {
@@ -63,7 +63,7 @@ main {
 }
 
 .profile .img {
-    background: #55e6a5;
+    background: #2784e1;
 }
 
 .profile .img-wrapper {
@@ -109,9 +109,11 @@ main {
 }
 
 span.ethan-hawke {
-    color: #55e6a5 !important;
+    color: #2784e1 !important;
 }
-
+span.ethan-hawke {
+    color: #2784e1 !important;
+}
 .main-head h1 {
     font-size: 60px;
     line-height: 1.3;
@@ -415,7 +417,7 @@ span.percentage {
 }
 
 .tags a:hover {
-    background: #55e6a5;
+    background: #2784e1;
     color: #1d1d1d;
 }
 
@@ -447,7 +449,7 @@ svg.arrow-right {
     left: -5px;
     right: -5px;
     bottom: -5px;
-    border: 1px solid #55e6a5;
+    border: 1px solid #2784e1;
     border-radius: 5px;
     opacity: 0;
     z-index: -1;
@@ -457,14 +459,14 @@ svg.arrow-right {
     pointer-events: none;
 }
 .item:hover svg line {
-    stroke: #55e6a5;
+    stroke: #2784e1;
 }
 .item:hover .img::after {
     opacity: 1;
 }
 
 .item:hover .brand {
-    background: #55e6a5;
+    background: #2784e1;
     color: #1d1d1d !important;
 }
 
@@ -496,7 +498,7 @@ svg.arrow-right {
 }
 
 .section-testmonials .border-bottom {
-    border-bottom: 4px solid #55e6a5 !important;
+    border-bottom: 4px solid #2784e1 !important;
     border-radius: 5px;
     position: absolute;
     left: 30px;
@@ -555,8 +557,8 @@ svg.arrow-right {
     left: 0;
     width: 100%;
     height: 100%;
-    -webkit-box-shadow: 0px -100px 80px -60px #55e6a5 inset;
-    box-shadow: 0px -100px 80px -60px #55e6a5 inset;
+    -webkit-box-shadow: 0px -100px 80px -60px #2784e1 inset;
+    box-shadow: 0px -100px 80px -60px #2784e1 inset;
     opacity: .08;
 }
 
@@ -588,13 +590,13 @@ svg.arrow-right {
 }
 
 .title-slide h4 {
-    color: #55e6a5;
+    color: #2784e1;
     font-size: 18px;
     font-weight: 400;
 }
 
 i.fa-solid.fa-star {
-    color: #55e6a5;
+    color: #2784e1;
     font-size: 14px;
 }
 
@@ -744,7 +746,7 @@ i.fa-solid.fa-star {
 }
 
 i.fas.fa-calendar-alt {
-    color: #55e6a5;
+    color: #2784e1;
     margin-right: 10px;
 }
 
@@ -795,7 +797,7 @@ i.fas.fa-comments {
 }
 
 a.phone {
-    color: #55e6a5;
+    color: #2784e1;
     font-size: 30px;
     font-weight: 600;
 }
@@ -863,7 +865,7 @@ a.phone {
     -webkit-transition: all .4s;
     -o-transition: all .4s;
     transition: all .4s;
-    background: #55e6a5;
+    background: #2784e1;
 }
 
 .contact button[type=submit]:hover span.text {
@@ -877,7 +879,7 @@ a.phone {
 }
 
 .copyright span a {
-    color: #55e6a5;
+    color: #2784e1;
 }
 
 
