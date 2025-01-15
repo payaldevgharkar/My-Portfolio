@@ -35,7 +35,7 @@ nav.navbar.navbar-expand-lg.navbar-light {
 }
 
 .navbar-light .navbar-toggler-icon {
-    background-image: url("./download-svg.png");
+    background-image: url("assets/download-svg.png");
 }
 
 li.nav-item:hover .nav-link {
