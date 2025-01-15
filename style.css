@@ -1150,6 +1150,10 @@ a.phone {
         align-items: center !important;
         margin: 0 !important;
     }
+    .navbar-light .navbar-toggler {
+    color: rgb(255 255 255) !important;
+    border-color: rgb(255 255 255 / 10%) !important;
+}
 }
 
 @media screen and (max-width: 991px) {
